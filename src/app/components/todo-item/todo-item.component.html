@@ -1,0 +1,8 @@
+<div class="bg-[#34495e] text-white h-24 rounded-xl p-2 flex flex-row justify-between">
+    <div class="text-xl font-semibold mx-2">
+        <div class="flex flex-col">
+            {{todo.title }} <span class="font-light text-wrap">{{todo.desc}}</span>
+        </div>
+    </div>
+    <button class="h-fit bg-[#2d3e50] hover:bg-blue-950 rounded-lg p-1 text-base" (click)="onClick(todo)">Del</button>
+</div>
